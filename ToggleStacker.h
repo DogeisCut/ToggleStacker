@@ -15,6 +15,12 @@ public:
 		CUSTOM
 	};
 
+	enum class PartMode {
+		DEFAULT,
+		STACK_ALL,
+		STACK_NONE
+	};
+
 	ToggleStacker();
 	~ToggleStacker();
 
