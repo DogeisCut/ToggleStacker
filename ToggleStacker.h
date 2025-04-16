@@ -15,10 +15,9 @@ public:
 		CUSTOM
 	};
 
-	enum class PartMode {
-		DEFAULT,
-		STACK_ALL,
-		STACK_NONE
+	struct CustomModeEntry {
+		EditorRigblockPtr part;
+		Mode mode;
 	};
 
 	ToggleStacker();
@@ -35,5 +34,6 @@ public:
 
 private:
 	Mode currentMode = Mode::DEFAULT;
+	vector<CustomModeEntry> customModeEntries;
 };
 
