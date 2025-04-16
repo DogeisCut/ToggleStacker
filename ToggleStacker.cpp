@@ -259,12 +259,12 @@ void ToggleStacker::ParseLine(const ArgScript::Line& line)
 		if (currentMode != Mode::DEFAULT)
 		{
 			currentMode = Mode::DEFAULT;
-			App::ConsolePrintF("ToggleStacker deactivated, default behavior restored for all parts*.");
+			App::ConsolePrintF("ToggleStacker deactivated, default behavior restored for all* parts.");
 		}
 		else
 		{
 			currentMode = Mode::STACK_ALL;
-			App::ConsolePrintF("ToggleStacker activated, all parts* will now stack.");
+			App::ConsolePrintF("ToggleStacker activated, all* parts will now stack.");
 		}
 	}
 }
