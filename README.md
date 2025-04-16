@@ -15,7 +15,7 @@ Here's the modes you can chose from:
 All parts will stack on each other.
 Most notable in the creature editor.
 - none / unstack / no
-No parts will stack on each other (except for limbs, spines, and other base parts), even vanillia stacking. 
+No parts will stack on each other (except for limbs, spines, and other base parts), even vanilla stacking. 
 Most notable in any outfitter.
 - default / deactivate / off / false / 
 Parts will follow their vanilla/default behavior.
@@ -34,4 +34,4 @@ Adds the current part to the custom list, retaining its current properties.
 - remove / delete / erase
 Removes the part from the custom list, returning it to the current mode's properties.
 - reset / clear
-Clears the custom list, makign all parts follow the current mode.
+Clears the custom list, making all parts follow the current mode.
