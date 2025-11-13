@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mod description="Allows you to toggle the ability to stack any part on each other." displayName="ToggleStacker" dllsBuild="2.5.395" hasCustomInstaller="false" installerSystemVersion="1.0.1.2" isExperimental="false" unique="ToggleStacker">
+  <prerequisite>ToggleStacker.dll</prerequisite>
+</mod>
